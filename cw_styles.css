@@ -1,0 +1,149 @@
+@charset "utf-8";
+@import url("cw_layout.css");
+/*
+   New Perspectives on HTML5 and CSS3, 7th Edition
+   Tutorial 2
+   Case Problem 3
+   
+   Civil War History Style Sheet
+   Author: Hesbon Osoro
+   Date: 12/6/22   
+   
+   Filename: cw_styles.css
+
+*/
+
+/* Structural Styles */
+html {
+  background-color: rgb(151, 151, 151);
+}
+body {
+  background-color: rgb(180, 180, 223);
+  font-family: Verdana, Geneva, sans-serif;
+}
+h1 {
+  font-weight: normal;
+}
+h2 {
+  font-weight: normal;
+}
+nav a {
+  text-decoration: none;
+}
+footer {
+  color: rgb(101, 101, 101);
+  background-color: rgb(101, 101, 101);
+  font-size: 0.8em;
+  text-align: center;
+  padding-top: 1px;
+  padding-bottom: 1px;
+}
+/* Body Header Styles */
+body > header {
+  background-color: rgb(97, 97, 221);
+}
+body > header > h1 {
+  font-size: 4vw;
+  color: rgba(255, 255, 255, 0.8);
+  font-family: Limelight, cursive;
+  margin: 0px;
+  padding-top: 10px;
+  padding-left: 20px;
+}
+span {
+  color: rgba(255, 255, 255, 0.4);
+}
+
+/* Navigation Styles */
+nav#mainLinks a {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+nav#mainLinks > ul > li > a:link {
+  color: white;
+}
+nav#mainLinks > ul > li > a:visited {
+  color: white;
+}
+nav#mainLinks > ul > li > a:hover {
+  color: white;
+  opacity: 0.8;
+  background-color: rgba(51, 51, 51, 0.5);
+}
+nav#mainLinks > ul > li > a:active {
+  color: white;
+  opacity: 0.8;
+  background-color: rgba(51, 51, 51, 0.5);
+}
+/* Outline Styles */
+nav#outline {
+  color: rgb(51, 51, 51);
+  font-size: 0.8em;
+}
+nav#outline > h1 {
+  text-align: center;
+}
+nav#outline > ol > li {
+  line-height: 2em;
+  margin: 0px 5px;
+  list-style-type: upper-roman;
+}
+nav#outline > ol > li > ol > li {
+  list-style-type: upper-alpha;
+}
+nav#outline > ol > li > a:link {
+  color: rgb(101, 101, 101);
+}
+nav#outline > ol > li > a:visited {
+  color: rgb(101, 101, 101);
+}
+nav#outline > ol > li > a:hover {
+  color: rgb(97, 97, 211);
+  text-decoration: underline;
+}
+nav#outline > ol > li > a:active {
+  color: rgb(97, 97, 211);
+  text-decoration: underline;
+}
+nav#outline > ol > li > ol > li > a:link {
+  color: rgb(101, 101, 101);
+}
+nav#outline > ol > li > ol > li > a:visited {
+  color: rgb(101, 101, 101);
+}
+nav#outline > ol > li > ol > li > a:hover {
+  color: rgb(97, 97, 211);
+  text-decoration: underline;
+}
+nav#outline > ol > li > ol > li > a:active {
+  color: rgb(97, 97, 211);
+  text-decoration: underline;
+}
+
+/* Section Styles */
+
+section {
+  background-color: rgb(220, 220, 220);
+}
+
+section > h1 {
+  font-size: 2.2em;
+  padding-left: 10px;
+}
+
+/* Article Styles */
+article > h2 {
+  font-size: 1.4em;
+}
+article > p:first-of-type:first-letter {
+  font-size: 2em;
+  vertical-align: baseline;
+}
+
+/* Aside Styles */
+aside {
+  font-size: 0.9em;
+}
+aside > h1 {
+  font-size: 1.4em;
+}
